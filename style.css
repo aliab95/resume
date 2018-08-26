@@ -1,0 +1,372 @@
+@font-face
+{
+	font-family: "Moon Flower Bold";
+	src:url('ressources/font/moon_flower/Moon Flower Bold.ttf');
+}
+@font-face
+{
+	font-family: "Roboto-Light";
+	src:url('ressources/font/roboto/Roboto-Light.ttf');
+}
+
+article {
+	font-family: Moon Flower Bold;
+}
+
+article p
+{
+	font-family: Roboto-Light;
+}
+
+
+.header-wrapper
+{
+	align-items: center;
+	background-image: url('ressources/images/background3.jpg');
+	background-position: center;
+	background-size: cover;
+	color: white;
+	display: flex;
+	font-family: Moon Flower Bold;
+	justify-content: center;
+	padding: 200px 0;
+	text-align: center;
+}
+
+.img
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: flex-start;
+	padding-left: 180px;
+}
+
+.header {
+	flex-grow: 10;
+	padding: 0 100px;
+}
+.header h1
+{
+	justify-content: center;
+	font-size: 100px;
+}
+
+.apropos
+{
+	display: flex;
+	font-size: 20px;
+}
+
+.apropos1
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 0 12%;
+	width: 30%;
+}
+.apropos2
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 38%;
+}
+
+body
+{
+	margin: 0;
+	font-family: Roboto-Light;
+}
+
+
+article h1 {
+	font-size: 40px;
+}
+
+article h2
+{
+	font-family: Moon Flower Bold;
+	font-size: 20px;
+}
+
+article h3
+{
+	font-family: Moon Flower Bold;
+	color: #F5A9BC
+}
+nav
+{
+	background-color: #424242;
+	display: flex;
+	font-family: Moon Flower Bold;
+	font-size: 30px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav-item a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.nav-item:hover
+{
+	background-color: #585858;
+}
+
+#current-nav-item
+{
+	background-color: #F5A9BC;
+}
+
+.nav-item
+{
+	height: 75px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+	flex: 1;
+	min-width: 150px;
+}
+
+section
+{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.experience
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#folder
+{
+	width: 50px;
+}
+
+.experience-details 
+{
+	font-family: Roboto-Light;
+}
+
+#publicis
+{
+	width:250px;
+}
+
+#dior
+{
+	width: 250px;
+}
+
+#leo
+{
+	width: 250px;
+}
+
+#electron
+{
+	width: 200px;
+}
+
+
+.formation-head
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.formation-wrapper
+{
+	
+	display: flex;
+	justify-content: space-between;
+	font-family: Moon Flower Bold;
+}
+.formation-details
+{
+	font-family: Roboto-Light;
+}
+.esdes
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: flex-start;
+	padding-left: 30px;
+}
+.erasmus
+{
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+}
+.lycee
+{
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 3;
+	justify-content: flex-end;
+}
+
+#chapeau
+{
+	width: 70px;
+}
+
+.voyages
+{
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+#coeur
+{
+	width: 50px;
+}
+
+#voyages
+{
+	width: 550px;
+}
+
+#photo
+{
+	width: 300px;
+}
+
+#dance
+{
+	width: 300px;
+}
+
+.Fiche
+{
+	background-color: #F2F2F2;
+	color: #424242;
+	font-family: Moon Flower Bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+aside
+{
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 1250px;
+	
+}
+
+aside h2
+{
+	background-color: #424242;
+	color: white;
+	padding: 30px;
+}
+
+.competences
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #86898C;
+}
+
+.Langues
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 70px;
+}
+
+.icon
+{
+	height: 200px;
+	font-size: 20px;
+	width: 300px;
+}
+
+.jauge
+{
+	background-color: white;
+	border-radius: 5px;
+	height: 8px;
+	margin: auto;
+	margin: top;
+	width: 130px;
+}
+
+.jauge1
+{
+	background-color: #F5A9BC;
+	border-radius: 5px;
+	height: 100%;
+	width:100%;
+}
+
+.jauge2
+{
+	background-color: #F5A9BC;
+	border-radius: 5px;
+	height:100%;
+	width:90%;
+	
+}
+
+.jauge3
+{
+	background-color: #F5A9BC;
+	border-radius: 5px;
+	height:100%;
+	width:40%;
+}
+
+.jauge4
+{
+	background-color: #F5A9BC;
+	border-radius: 5px;
+	height:100%;
+	width:65%;
+}
+
+.jauge5
+{
+	background-color: #F5A9BC;
+	border-radius: 5px;
+	height:100%;
+	width:75%;
+}
+
+footer
+{
+	align-items: center;
+	background-image: url('ressources/images/background3.jpg');
+	background-position: center;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	font-family: Moon Flower Bold;
+	font-size: 30px;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+}
